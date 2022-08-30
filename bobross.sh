@@ -8,7 +8,7 @@ wget https://raw.githubusercontent.com/newkirkmr/tree_script/main/bobross.jpg -P
 wget https://raw.githubusercontent.com/newkirkmr/tree_script/main/ptree -P /usr/local/bin
 chmod +x /usr/local/bin/bobross
 
-chmod +x /usr/local/lib/ptree
+chmod +x /usr/local/bin/ptree
 
 
 
