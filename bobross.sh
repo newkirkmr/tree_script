@@ -9,7 +9,7 @@ wget https://raw.githubusercontent.com/newkirkmr/tree_script/main/ptree.sh -P .
 chmod +x bobross_lib
 chmod +x bobross_bin
 chmod -x ptree.sh
-mv bobross-lib /usr/local/lib
+mv bobross_lib /usr/local/lib
 mv bobross_bin /usr/local/bin
 mv bobross.jpg /usr/local/lib
 mv /usr/local/lib/bobross_lib /usr/local/lib/bobross
