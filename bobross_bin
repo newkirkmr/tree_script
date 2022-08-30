@@ -1,0 +1,15 @@
+#!/bin/bash
+IMG=/usr/local/lib/bobross.jpg
+if [ -e $IMG ]
+then
+jp2a /usr/local/lib/bobross.jpg --flipx --color-depth=24
+echo "
+"
+fi
+FILE=/usr/local/lib/bobross
+if [ -e $FILE ]
+then
+shuf -n 1 $FILE
+echo "
+"
+fi
