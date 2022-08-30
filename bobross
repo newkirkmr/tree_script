@@ -6,7 +6,7 @@ jp2a /usr/local/lib/bobross.jpg --flipx --color-depth=24
 echo "
 "
 fi
-FILE=/usr/local/lib/bobross
+FILE=/usr/local/lib/bobross_lib
 if [ -e $FILE ]
 then
 shuf -n 1 $FILE
