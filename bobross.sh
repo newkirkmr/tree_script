@@ -17,5 +17,5 @@ mv /usr/local/lib/bobross_lib /usr/local/lib/bobross
 mv /usr/local/bin/bobross_bin /usr/local/bin/bobross
 mv /usr/local/bin/ptree.sh /usr/local/bin/ptree
 cd /
-rm -R /ptree
+rm -R ptree bobross.sh 
 bobross
